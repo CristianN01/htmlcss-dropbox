@@ -103,10 +103,10 @@ main section.section-p-info p,.prova-gratuita{
 /* inizio colonne di scelta del piano */
 
 .piano-column{
-    /* display: flex;
-    flex-direction: column; */
     max-width: 1000px;
     margin: 0rem auto;
+    display: flex;
+    flex-direction: column;
 }
 
 .flex-vendite{
@@ -188,9 +188,8 @@ article.ufficio-vendite p{
 }
 
 section.partner{
-    margin-top: 10rem;
+    margin: 10rem auto;
 }
-
 
 .img-partner{
     width: 60%;
@@ -203,4 +202,64 @@ section.partner{
 
 div.info-partner p{
     margin: 1rem auto;
+}
+
+section.dropbox-business h2{
+    font-size: 37px;
+}
+
+/* parte business */
+
+.dropbox-business-strumenti h2{
+    font-size: 37px;
+}
+
+.dropbox-business{
+    display: flex;
+    margin: 5rem auto;
+    justify-content: space-between;
+}
+
+section.dropbox-business > article{
+    width: calc((100% / 3) - 2rem);
+}
+
+article.strumento p{
+    margin: 1.5rem auto;
+}
+
+div.numero-team p{
+    margin: 4rem auto;
+}
+
+.numero-team{
+    width: 60%;
+}
+
+/* inizio dropbox con i loghi delle companie */
+
+section.companys{
+    display: flex;
+    margin-top: 5rem;
+}
+
+section.companys > div.company{
+    width: calc(100% / 3);
+    border: 1px solid red;
+}
+
+/* dropbox azienda in flex */
+
+.dropbox-azienda{
+    display: flex;
+    margin: 8rem auto;
+    justify-content: space-around;
+}
+
+.red-title{
+    width: 31%;
+}
+
+div.red-title h2{
+    font-size: 37px;
 }
