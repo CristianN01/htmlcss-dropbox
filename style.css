@@ -87,11 +87,11 @@ main section.section-p-info p,.prova-gratuita{
 
 .titolo-business{
     font-size: 25px;
-    margin: 3rem;
+    margin-top: 3rem;
 }
 
 .fatturazione{
-    margin: 3rem;
+    margin: 3rem 0rem;
     display: flex;
 
 }
@@ -99,3 +99,58 @@ main section.section-p-info p,.prova-gratuita{
 .annuale{
     margin-left: 3rem;
 }
+
+/* inizio colonne di scelta del piano */
+
+.piano-mensile{
+    max-width: 1000px;
+    margin: 0rem auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.professional,.advanced,.enterprise{
+    border: 1px solid black;
+    width: 30%;
+}
+
+div.annuale > span{
+    border-bottom: 1px solid black;
+}
+
+.piano-singolo{
+    margin: 0.5rem;
+    text-align: center;
+}
+
+.nome-piano,.info-piano,.acquista-ora,.punti-salienti{
+    margin: 2rem;
+    text-align: initial;
+}
+
+.bottone-piano{
+    margin: 3rem;
+}
+
+.hr-piccolo{
+    width: 22%;
+    margin-left: 2rem;
+}
+
+article.professional p{
+    margin: 1rem 0rem;
+
+}
+
+article.advanced p{
+    margin: 1rem 0rem;
+
+}
+
+article.enterprise p{
+    margin: 1rem 0rem;
+}
+
+
+
+
