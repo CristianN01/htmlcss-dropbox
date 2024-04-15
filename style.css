@@ -1,0 +1,46 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+html {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-variation-settings:
+    "wdth" 100;
+}
+
+/* parte navigazione con logo e button, display flex per i due contenitori di informazioni */
+
+.header-flex{
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem;
+}
+
+.logo-info, .button-info{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+header ul{
+    list-style-type: none;
+    display: flex;
+}
+
+header ul li{
+    margin-left: 2rem;
+
+}
+
+.button-start{
+    margin-left: 1rem;
+}
+
+/* inizio parte main con titolo, infomazioni von button della prova gratutita e immagine */
