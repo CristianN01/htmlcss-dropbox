@@ -44,3 +44,58 @@ header ul li{
 }
 
 /* inizio parte main con titolo, infomazioni von button della prova gratutita e immagine */
+
+.mainflex{
+    display: flex;
+    flex-direction: column;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.titolo-pagina{
+    font-size: 62px;
+    padding-bottom: 3rem;
+}
+
+.infoflex-imgflex{
+    display: flex;
+}
+.section-p-info{
+    width: 30%;
+}
+
+main section.section-p-info p,.prova-gratuita{
+    margin: 0.5rem;
+}
+
+.section-img{
+    width: 60%;
+
+}
+
+.section-img{
+    text-align: center;
+}
+/* fine struttura parte iniziale del main (testa) */
+
+/* inizio struttura della scelta dei piani parte centrale del main */
+
+.business{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.titolo-business{
+    font-size: 25px;
+    margin: 3rem;
+}
+
+.fatturazione{
+    margin: 3rem;
+    display: flex;
+
+}
+
+.annuale{
+    margin-left: 3rem;
+}
