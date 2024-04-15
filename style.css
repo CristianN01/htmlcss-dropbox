@@ -102,6 +102,21 @@ main section.section-p-info p,.prova-gratuita{
 
 /* inizio colonne di scelta del piano */
 
+.piano-column{
+    /* display: flex;
+    flex-direction: column; */
+    max-width: 1000px;
+    margin: 0rem auto;
+}
+
+.flex-vendite{
+
+    display: flex;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
 .piano-mensile{
     max-width: 1000px;
     margin: 0rem auto;
@@ -112,6 +127,16 @@ main section.section-p-info p,.prova-gratuita{
 .professional,.advanced,.enterprise{
     border: 1px solid black;
     width: 30%;
+}
+
+.enterprise-ufficio{
+    margin: 3rem auto;
+}
+
+div.piano-vendite{
+    text-align: center;
+    border: 1px solid black;
+    padding: 0.5rem;
 }
 
 div.annuale > span{
@@ -129,7 +154,7 @@ div.annuale > span{
 }
 
 .bottone-piano{
-    margin: 3rem;
+    margin: 2rem;
 }
 
 .hr-piccolo{
@@ -151,6 +176,31 @@ article.enterprise p{
     margin: 1rem 0rem;
 }
 
+article.ufficio-vendite p{
+    margin: 1rem 0rem;
+}
+
+/* parte del partner con flex immagine e informazioni */
+
+.partner-flex{
+    display: flex;
+    justify-content: space-around;
+}
+
+section.partner{
+    margin-top: 10rem;
+}
 
 
+.img-partner{
+    width: 60%;
+    text-align: center;
+}
 
+.info-partner{
+    width: 30%;
+}
+
+div.info-partner p{
+    margin: 1rem auto;
+}
