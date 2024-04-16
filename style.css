@@ -263,15 +263,16 @@ article.ufficio-vendite p{
 
 section.partner{
     margin: 7rem auto;
+    width: 100%;
 }
 
 .img-partner{
     width: 60%;
-    text-align: center;
+    
 }
 
 .partner{
-    width: 33rem;
+    width: 36rem;
 }
 
 .info-partner{
@@ -282,6 +283,7 @@ section.partner{
 
 div.info-partner p{
     margin: 1rem auto;
+    
 }
 
 section.dropbox-business h2{
