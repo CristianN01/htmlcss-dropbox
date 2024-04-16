@@ -275,10 +275,16 @@ section.partner{
     width: 36rem;
 }
 
+.button-partner-white{
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+}
+
 .info-partner{
+    margin-right: 4rem;
     width: 30%;
     margin-top:4rem
-    
 }
 
 div.info-partner p{
@@ -294,6 +300,13 @@ section.dropbox-business h2{
 
 .dropbox-business-strumenti h2{
     font-size: 37px;
+    margin: 3rem auto;
+}
+
+article.strumento > img{
+    height: 15rem;
+    width: 100%;
+    object-fit: contain;
 }
 
 .dropbox-business{
@@ -316,6 +329,7 @@ div.numero-team p{
 
 .numero-team{
     width: 60%;
+    margin-top:10rem
 }
 
 /* inizio dropbox con i loghi delle companie */
@@ -334,7 +348,11 @@ section.companys > div.company{
 
 
 .dropbox-azienda {
-    background-color: aquamarine;
+    background-color: #b4d0e7;
+}
+
+div.red-title > h2{
+    color: #61082b;
 }
 
 .bg-color{
