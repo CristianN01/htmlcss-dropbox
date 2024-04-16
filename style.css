@@ -21,6 +21,7 @@ html {
     display: flex;
     justify-content: space-between;
     padding: 1.5rem;
+    background-color: white;
 }
 
 .logo-info, .button-info{
@@ -29,6 +30,21 @@ html {
     
 }
 
+.bt-blue{
+    background-color:#0061ff ;
+    border-collapse: collapse;
+    border: none;
+    padding: 0.4rem 1rem;
+    color: white;
+}
+
+.prova-gratuita{
+    padding: 0.8rem;
+    font-size: 16px;
+    margin: 2rem auto;
+}
+
+
 header ul{
     list-style-type: none;
     display: flex;
@@ -36,16 +52,21 @@ header ul{
 
 header ul li{
     margin-left: 2rem;
+    align-self: center;
 
 }
 
 .button-start{
-    margin-left: 1rem;
 }
 
 /* inizio parte main con titolo, infomazioni von button della prova gratutita e immagine */
 
 .mainflex{
+    background-color: #b4d0e7;
+    padding-top: 5rem;
+}
+
+.big-container{
     display: flex;
     flex-direction: column;
     max-width: 1200px;
@@ -64,18 +85,24 @@ header ul li{
     width: 30%;
 }
 
-main section.section-p-info p,.prova-gratuita{
-    margin: 0.5rem;
+.freccia{
+    font-size: 45px;
+    padding-top: 4rem;
+    padding-bottom: 1rem;
 }
 
 .section-img{
     width: 60%;
+    position: relative;
 
 }
 
-.section-img{
-    text-align: center;
+.img-jumbo{
+    height: 31rem;
+    position: absolute;
+    left: 0;
 }
+
 /* fine struttura parte iniziale del main (testa) */
 
 /* inizio struttura della scelta dei piani parte centrale del main */
@@ -83,11 +110,21 @@ main section.section-p-info p,.prova-gratuita{
 .business{
     max-width: 1000px;
     margin: 0 auto;
+    padding-top: 7rem;
 }
 
 .titolo-business{
     font-size: 25px;
     margin-top: 3rem;
+}
+
+section.fatturazione p{
+    display: inline;
+}
+
+input{
+    height: 21px;
+    width: 26px;
 }
 
 .fatturazione{
@@ -112,9 +149,43 @@ main section.section-p-info p,.prova-gratuita{
 .flex-vendite{
 
     display: flex;
-    border-left: 1px solid black;
-    border-right: 1px solid black;
-    border-bottom: 1px solid black;
+    border-left: 1px solid #d9d9db;
+    border-right: 1px solid #d9d9db;
+    border-bottom: 1px solid #d9d9db;
+}
+
+div.piano-vendite{
+    text-align: center;
+    border: 1px solid #d9d9db;
+    
+}
+
+article.ufficio-vendite{
+    width: 80%;
+}
+
+div.bottone-piano-ufficio{
+    width: 25%;
+    padding: 1rem;
+
+}
+
+.bottone-professional, .bottone-advanced, .bottone-enterprise{
+    margin: 2rem;
+    width: 100%;
+    
+}
+
+.professional-bt, .advanced-bt, .enterprise-bt{
+    width: 80%;
+    padding: 0.8rem 2.7rem;
+}
+
+.bottone-vendita{
+    padding: 0.8rem;
+    font-size: 15px;
+    width: 100%;
+    margin-top: 1rem;
 }
 
 .piano-mensile{
@@ -125,7 +196,7 @@ main section.section-p-info p,.prova-gratuita{
 }
 
 .professional,.advanced,.enterprise{
-    border: 1px solid black;
+    border: 1px solid #d9d9db;
     width: 30%;
 }
 
@@ -133,10 +204,13 @@ main section.section-p-info p,.prova-gratuita{
     margin: 3rem auto;
 }
 
-div.piano-vendite{
-    text-align: center;
-    border: 1px solid black;
-    padding: 0.5rem;
+/* div.i{
+    display: inline-block;
+} */
+
+
+i{
+    margin: 1rem 0;
 }
 
 div.annuale > span{
@@ -144,8 +218,10 @@ div.annuale > span{
 }
 
 .piano-singolo{
-    margin: 0.5rem;
+    padding: 0.5rem;
     text-align: center;
+    border-bottom: 1px solid #d9d9db;
+    width: 100%;
 }
 
 .nome-piano,.info-piano,.acquista-ora,.punti-salienti{
@@ -153,9 +229,7 @@ div.annuale > span{
     text-align: initial;
 }
 
-.bottone-piano{
-    margin: 2rem;
-}
+
 
 .hr-piccolo{
     width: 22%;
@@ -184,11 +258,11 @@ article.ufficio-vendite p{
 
 .partner-flex{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 section.partner{
-    margin: 10rem auto;
+    margin: 7rem auto;
 }
 
 .img-partner{
@@ -196,8 +270,14 @@ section.partner{
     text-align: center;
 }
 
+.partner{
+    width: 33rem;
+}
+
 .info-partner{
     width: 30%;
+    margin-top:4rem
+    
 }
 
 div.info-partner p{
@@ -250,14 +330,22 @@ section.companys > div.company{
 
 /* dropbox azienda in flex */
 
-.dropbox-azienda{
-    display: flex;
-    margin: 8rem auto;
-    justify-content: space-around;
+
+.dropbox-azienda {
+    background-color: aquamarine;
 }
 
+.bg-color{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1190px;
+    margin: 0rem auto;
+    padding: 6rem;
+}
+
+
 .red-title{
-    width: 31%;
+    width: 56%;
 }
 
 div.red-title h2{

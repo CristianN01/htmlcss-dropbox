@@ -16,8 +16,10 @@
             <!-- parte navigazione header con logo e button -->
         <section class="header-flex">
             <section class="logo-info">
-                <img src="./img/logo-small.png" alt="logo-dropbox">
                 <ul>
+                    <li>
+                        <img src="./img/logo-small.png" alt="logo-dropbox">
+                    </li>
                     <li>Perchè Dropbox</li>
                     <li>Funzioni</li>
                     <li>Piani e Prezzi</li>
@@ -29,44 +31,49 @@
                     <li>Supporto</li>
                     <li>Contatta l'ufficio vendite</li>
                     <li>Accedi</li>
+                    <li>
+                        <button class="button-start bt-blue">Inizia</button>
+                    </li>
                 </ul>
-                <button class="button-start">Inizia</button>
             </section>
         </section>
+
     </header>
         <!-- parte della testadel main con titolo h1, paragrafo,bottone e immagine. -->
     <main>
         <section class="mainflex">
-            <section class="titolo-pagina">
-                <h1>
-                    Tutto ciò che ti serve per il lavoro, in un unico posto
-                </h1>
-            </section>
-            <section class="infoflex-imgflex">
-                <section class="section-p-info">
-                    <p>
-                        Finalmente tutti i tuoi strumenti, contenuti e collaboratori sono accessibili dallo stesso posto. Dropbox Business è piu di uno spazio di archiviazione sicuro: è un modo intelligente e integrato per ottimizare il flusso di lavoro esistente.
-                    </p>
-                    
-                    <button class="prova-gratuita">
-                        Inizia la tua prova gratuita
-                    </button>
+            <div class="big-container">
+                <section class="titolo-pagina">
+                    <h1>
+                        <strong>Tutto ciò che ti serve per il lavoro, in un unico posto</strong>
+                    </h1>
+                </section>
+                <section class="infoflex-imgflex">
+                    <section class="section-p-info">
+                        <p>
+                            Finalmente tutti i tuoi strumenti, contenuti e collaboratori sono accessibili dallo stesso posto. Dropbox Business è piu di uno spazio di archiviazione sicuro: è un modo intelligente e integrato per ottimizare il flusso di lavoro esistente.
+                        </p>
+                        
+                        <button class="prova-gratuita bt-blue">
+                            Inizia la tua prova gratuita
+                        </button>
 
-                    <p>
-                        Annulla in qualsiai momento
-                    </p>
+                        <p>
+                            Annulla in qualsiai momento
+                        </p>
 
-                    <p class="freccia">
-                        &DownArrow;
-                    </p>
-                    </section>
-                    
-                    <section class="section-img">
-                        <div class="img">
-                            IMMAGINE
-                        </div>
-                    </section>
-            </section>
+                        <p class="freccia">
+                            <i class="fa-solid fa-arrow-down"></i>
+                        </p>
+                        </section>
+                        
+                        <section class="section-img">
+                            <div class="img">
+                                <img class="img-jumbo" src="./img/jumbo.png" alt="">
+                            </div>
+                        </section>
+                </section>
+            </div>
         </section>
 
         <section class="business">
@@ -77,15 +84,16 @@
             <section class="fatturazione">
                 <div class="mensile">
                 <input type="radio" name="Fatturazione" >
-                <span>Fatturazione mensile</span>
+                <p>Fatturazione mensile</p>
                 </div>
 
                 <div class="annuale">
                 <input type="radio" name="Fatturazione">
-                <span>Fatturazione annuale</span>
+                <p>Fatturazione annuale</p>
                 </div>
             </section>
         </section>
+
         <section class="piano-column">
             <section class="piano-mensile">
                 <article class="professional">
@@ -95,8 +103,6 @@
                         <span>Singolo</span>
                     </div>
 
-                    <hr>
-
                     <div class="nome-piano">
                         <h2>Professional</h2>
                         <p><strong>&euro; 12.00</strong></p>
@@ -104,12 +110,26 @@
                     </div>
 
                     <div class="info-piano">
-                        <p>1 utente</p>
-                        <p>5 TB di spazio di archiviazione sicuro</p>
-                        <p>Funzioni di produttività premium e condivisione file semplice e sicura</p>
+                        <div class="i">
+                            <div class="font">
+                                <span><i class="fa-solid fa-user"></i> 1 utente</span> 
+                            </div>
+                            
+                        </div>
+                        <div class="i">
+                            <div class="font">
+                                <span><i class="fa-solid fa-folder"></i> 5 TB di spazio di archiviazione sicuro</span>
+                            </div>
+                                
+                        </div>
+                        <div class="i">
+                            <span><i class="fa-solid fa-share-nodes"></i> Funzioni di produttività premium e condivisione file semplice e sicura</span>
+                        </div>
+                            
+
                     </div>
-                    <div class="bottone-piano">
-                        <button>Prova gratis per 30 giorni</button>
+                    <div class="bottone-professional">
+                        <button class="professional-bt bt-blue">Prova gratis per 30 giorni</button>
                     </div>
 
                     <div class="acquista-ora">
@@ -133,8 +153,6 @@
                         <span>Team</span>
                     </div>
 
-                    <hr>
-
                     <div class="nome-piano">
                         <h2>Advanced</h2>
                         <p><strong>&euro; 18.00</strong></p>
@@ -146,8 +164,8 @@
                         <p>Tutto lo spazio di cui ha bisogno il tuo team</p>
                         <p>Sofisticate funzioni di controllo e per tenere sicuro tutti i file del tuo team</p>
                     </div>
-                    <div class="bottone-piano">
-                        <button>Prova gratis per 30 giorni</button>
+                    <div class="bottone-advanced">
+                        <button class="advanced-bt bt-blue">Prova gratis per 30 giorni</button>
                     </div>
 
                     <div class="acquista-ora">
@@ -174,8 +192,6 @@
                         <span>Azienda</span>
                     </div>
 
-                    <hr>
-
                     <div class="nome-piano">
                         <h2>Enterprise</h2>
                         <p><strong>Contattaci</strong></p>
@@ -187,8 +203,8 @@
                         <p>Soluzioni personalizzbili per la tua azienda</p>
                         <p>Assistenza personalizzata per aiutare gli amministratori in una gestione su larga scala</p>
                     </div>
-                    <div class="bottone-piano">
-                        <button>Contattaci</button>
+                    <div class="bottone-enterprise">
+                        <button class="enterprise-bt bt-blue">Contattaci</button>
                     </div>
 
                     <div class="acquista-ora">
@@ -224,8 +240,8 @@
                             <p> Soluzioni personalizzate e supporto su misura per aiutare i professionisti IT nella gestione su qualsiasi scala.</p>
                     </article>
 
-                            <div class="bottone-piano">
-                                <button>Contatta l'ufficio vendite</button>
+                            <div class="bottone-piano-ufficio">
+                                <button class=" bottone-vendita bt-blue">Contatta l'ufficio vendite</button>
                             </div>
                 </div>    
             </section>
@@ -233,7 +249,7 @@
             <section class="partner">
                 <div class="partner-flex">
                     <div class="img-partner">
-                        IMMAGINE
+                        <img class="partner" src="./img/partner.png" alt="partner">
                     </div>
 
                     <div class="info-partner">
@@ -327,14 +343,14 @@
         </section>
 
         <section class="dropbox-azienda">
-
-            <div class="red-title">
-                <h2>Porta Dropbox Business nella tua azienda.</h2>
+            <div class="bg-color">
+                <div class="red-title">
+                    <h2>Porta Dropbox Business nella tua azienda.</h2>
+                </div>
+                <div>
+                    <button class="prova-gratuita">Inizia la tua prova gratuita</button>
+                </div>
             </div>
-            <div>
-                <button class="prova-gratuita">Inizia la tua prova gratuita</button>
-            </div>
-
         </section>
 
         <section class="domande-frequenti">
