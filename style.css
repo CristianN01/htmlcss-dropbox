@@ -339,6 +339,12 @@ section.companys{
     margin-top: 5rem;
 }
 
+div.company{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
 section.companys > div.company{
     width: calc(100% / 3);
     border: 1px solid red;
