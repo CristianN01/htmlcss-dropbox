@@ -204,13 +204,30 @@ div.bottone-piano-ufficio{
     margin: 3rem auto;
 }
 
-/* div.i{
-    display: inline-block;
-} */
 
+.grey-p{
+    color: #907293;
+}
+
+
+.user, .folder, .nodes{
+    display: flex;
+    align-items: baseline;
+
+}
+
+.check{
+    display: flex;
+    align-items: baseline;
+}
+
+.fa-check{
+    color: #005bff;
+}
 
 i{
     margin: 1rem 0;
+    margin-right: 0.5rem;
 }
 
 div.annuale > span{
@@ -225,7 +242,7 @@ div.annuale > span{
 }
 
 .nome-piano,.info-piano,.acquista-ora,.punti-salienti{
-    margin: 2rem;
+    margin: 2rem 1rem;
     text-align: initial;
 }
 
@@ -233,7 +250,7 @@ div.annuale > span{
 
 .hr-piccolo{
     width: 22%;
-    margin-left: 2rem;
+    margin: 3rem 2rem;
 }
 
 article.professional p{
@@ -279,6 +296,9 @@ section.partner{
     color: black;
     background-color: white;
     border: 1px solid black;
+    padding: 0.8rem 1rem;
+    font-size: 16px;
+    margin-top: 1rem;
 }
 
 .info-partner{
@@ -427,10 +447,12 @@ div.bg-red{
 
 .dropbox-azienda {
     background-color: #b4d0e7;
+    padding: 2rem 0;
 }
 
-div.red-title > h2{
+div.red-title{
     color: #61082b;
+    font-size: 27px;
 }
 
 .bg-color{
@@ -439,12 +461,24 @@ div.red-title > h2{
     max-width: 1190px;
     margin: 0rem auto;
     padding: 6rem;
+    align-items: baseline;
 }
 
 
 .red-title{
     width: 56%;
 }
+
+.prova-gratuita-azienda{
+    padding: 0.8rem;
+    font-size: 16px;
+    margin: 2rem auto;
+    border-collapse: collapse;
+    background-color: white;
+    border: none;
+    width: 18rem;
+}
+
 
 div.red-title h2{
     font-size: 37px;
@@ -458,7 +492,7 @@ section.domande-frequenti h2{
 
 .domande-frequenti{
     max-width: 1000px;
-    margin: 0rem auto;
+    margin: 8rem auto;
     display: flex;
     flex-direction: column;
 }
