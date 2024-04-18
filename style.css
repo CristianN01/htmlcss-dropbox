@@ -98,7 +98,7 @@ header ul li{
 }
 
 .img-jumbo{
-    height: 31rem;
+    height: 30rem;
     position: absolute;
     left: 0;
 }
@@ -116,6 +116,7 @@ header ul li{
 .titolo-business{
     font-size: 25px;
     margin-top: 3rem;
+    margin-bottom: 4rem;
 }
 
 section.fatturazione p{
@@ -165,8 +166,8 @@ article.ufficio-vendite{
 }
 
 div.bottone-piano-ufficio{
-    width: 25%;
-    padding: 1rem;
+    width: 30%;
+    padding: 1rem 2rem 0 0;
 
 }
 
@@ -216,6 +217,17 @@ div.bottone-piano-ufficio{
 
 }
 
+div.border-bottom{
+    border-bottom: 1px solid gray;
+    width: 20%;
+    margin: 3rem 1rem 4rem 1rem;
+}
+
+div.punti-salienti > h4{
+    margin-bottom: 1rem;
+
+}
+
 .check{
     display: flex;
     align-items: baseline;
@@ -225,7 +237,7 @@ div.bottone-piano-ufficio{
     color: #005bff;
 }
 
-i{
+div.user i, div.folder i, div.nodes i, div.check i{
     margin: 1rem 0;
     margin-right: 0.5rem;
 }
@@ -327,6 +339,10 @@ article.strumento > img{
     height: 15rem;
     width: 100%;
     object-fit: contain;
+}
+
+article.strumento h3{
+    font-size: 22px;
 }
 
 .dropbox-business{
@@ -466,7 +482,7 @@ div.red-title{
 
 
 .red-title{
-    width: 56%;
+    width: 50%;
 }
 
 .prova-gratuita-azienda{
@@ -505,8 +521,58 @@ section.domande-frequenti hr{
 div.container-domande{
     display: flex;
     justify-content: space-between;
+    align-items: baseline;
 }
 
 div.container-domande i{
     margin-right: 3rem;
+}
+
+section.domande-frequenti hr.domande-hr{
+    color: #d7d7da;
+}
+
+/* inizio parte del footer con ul e mini footer finale della lingua */
+
+.footer{
+    background-color:#000000 ;
+}
+
+div.links ul{
+    color: white;
+    list-style-type: none;
+}
+
+div.links{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5rem ;
+}
+
+div.links ul li.sezione{
+    font-size: 23px;
+}
+
+div.links ul{
+    margin: 1.5rem 0;
+}
+
+div.links li{
+    margin: 1rem 0;
+}
+
+.hr-piccolo-footer{
+    width: 10%;
+    margin: 4rem 0 3rem 0;
+}
+
+div.sel-lingua{
+    display: flex;
+    color: white;
+    align-items: baseline;
+    padding-bottom: 2rem;
+}
+
+div.sel-lingua p{
+    margin-right: 0.5rem;
 }
